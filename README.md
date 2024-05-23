@@ -36,4 +36,5 @@ Inside the file simply add your HF access key, like so:
 After that you should be good to go!
 
 To run your program simply type the following command in your terminal:
+
 `python app.py`
