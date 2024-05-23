@@ -5,12 +5,12 @@ If you want to use this repo, start by clonning it inside the directory you wish
 
 `git clone https://github.com/Zeimoto/ida.git`
 
-Now you must setup your python virutal environment to store your libraries without compromising other projects you might have.
+Now you must setup your python virtual environment to store your libraries without compromising other projects you might have.
 To create you virtual environment simply run the following command inside the project directory:
 
-`virtualenv venv`
+`python -m virtualenv venv`
 
-To run the venv run the following:
+To activate the virtual environment run the following:
 (Linux\MacOS):
 
 `source venv/bin/activate`
