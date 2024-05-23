@@ -10,7 +10,7 @@ To create you virtual environment simply run the following command inside the pr
 
 `python -m virtualenv venv`
 
-To activate the virtual environment run the following:
+To activate the virtual environment run the following:<br>
 (Linux\MacOS):
 
 `source venv/bin/activate`
@@ -24,7 +24,7 @@ Now that your virtual environment has been created and activated you need to ins
 `pip install -r requirements.txt`
 
 One other thing missing is the HuggingFace Access Token. For that you'll need to create your own HuggingFace account if you haven't already, and create an Access Key. <br>
-For that you can follow [these instructions](https://huggingface.co/docs/hub/security-tokens). <br>
+For that you can follow [these instructions](https://huggingface.co/docs/hub/security-tokens). <br><br>
 After that, you must create one last file inside the project directory:
 
 `touch resources.py`
